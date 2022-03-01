@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+/* normal text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+/* heading text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 52%;
+  margin: auto;
+  box-shadow: 0px 0px 7px 2px #d4d4d3;
+  /* padding: 30px 0 0px 30px; */
+}
+.sub-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  /* column-gap: 20px; */
+}
+.red-c{
+  width: 10px;
+  height: 10px;
+  background-color: #eb8675;
+  border-radius: 50%;
+  margin-left: 7px;
+}
+.blue-c{
+  width: 10px;
+  height: 10px;
+  background-color: #575b76;
+  border-radius: 50%;
+  margin-left: 7px;
+}
+.progressbar{
+  position: relative;
+  right: 7px;
+  display: flex;
+}
+.education,.work,.award,.about,.contact,.left-award,.left-work{
+  font-family: PT Serif;
+  font-size: 15px;
+}
+.heading-education,.heading-work,.heading-skills,.heading-award,.heading-award,.heading-about,.heading-contact,.heading-languages{
+  padding-bottom: 20px;
+  font-size: 20px;
+  padding-top: 40px;
+  color: #f1a08d;
+  font-family: Libre Franklin;
+}
+.award{
+  padding-bottom: 51px;
+}
+.about{
+  text-align: center;
+  padding: 15px;
+  padding-bottom: 57.4px;
+  background-color: #e3927e;
+  color: whitesmoke;
+}
+.heading-about{
+  padding-top: 40px;
+  color: #525671;
+}
+.heading-contact{
+  color: #f0d8b3;
+}
+.contact{
+  text-align: center;
+  padding: 15px;
+  background-color: #525671;
+  color: whitesmoke;
+  padding-bottom: 76px;
+}
+.left-work{
+  margin-top: 180px;
+}
+.left-skills{
+  padding-top: 85px;
+}
+.left-award{
+  padding-top: 83px;
+  padding-bottom: 35px;
+}
+.award{
+  padding-bottom: 35px;
+
+}
+.img{
+  width: 100%;
+  height: 300px;
+
+}
+.img img{
+  width: 100%;
+  height: 100%;
+}
+.bold,.lang-para{
+  font-weight: bold;
+  margin-bottom: 6px  ;
+}
+.bold{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.education2,.work2 {
+  padding-top:20px;
+}
+.work2{
+  padding-bottom: 35px;
+}
+.para-two{
+  margin-top: 15px;
+}
+.skills,.award,.left-skills,.left-award{
+  background-color: #f0d8b4;
+}
+.education,.skills,.work,.award{
+  padding-left: 20px;
+}
+.education-para,.work-para,.award1,.award2,.about-para,.phone-para,.email-para,.address-para{
+  font-size: 14.4px;
+}
+.award1{
+  padding-bottom: 10px;
+}
+.education-para,.work-para{
+  line-height: 27px;
+}
+.year{
+  padding-bottom: 6px;
+}
+.small-para{
+  padding-bottom: 2px;
+}
+.heading{
+  background-color: #565a75;
+  color: #f3f5e6;
+  width: 67%;
+  position: relative;
+  left: 232px;
+  padding: 30px;
+  text-align: right;
+}
+.name{
+  font-family: Roboto Serif;
+  font-size: 41px;
+}
+.post-para{
+  font-family: Roboto Serif;
+  font-size: 17px;
+}
+.para2{
+  margin-bottom: 6px;
+  margin-top: 15px;
+}
+.lang-para{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact .bold{
+  padding-top: 20px;
+  /* padding-bottom: 6px; */
+}

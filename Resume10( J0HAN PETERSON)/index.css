@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+/* normal text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+/* heading text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 55%;
+  margin: auto;
+  box-shadow: 0px 0px 7px 2px #ad9a6f;
+  padding: 40px 30px 40px 30px;
+  background-color: rgb(252, 250, 250);
+}
+
+.sub-container{
+  display: grid;
+  grid-template-columns: 30% 1% 1fr;
+  column-gap: 25px;
+}
+
+.first-name{
+  color: #6a6b6f;
+  font-size: 31px;
+  position: relative;
+  left: 263px;
+  font-family: Libre Franklin;
+}
+
+.last-name{
+  color: #434446;
+  font-size: 52px;
+  position: relative;
+  left: 66px;
+  letter-spacing: 3px;
+  font-family: Libre Franklin;
+}
+
+.head-para{
+  color: #6a6b6f;
+  font-size: 11px;
+  position: relative;
+  left: 259px;
+  letter-spacing: 2px;
+}
+
+hr{
+  margin: 40px 0 40px 0;
+}
+
+.vr{
+  border-left: 2px solid black;
+}
+
+.vr2{
+  border-left: 2px solid black;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 563px;
+}
+
+.yellow{
+  background-color: #dc9226;
+  width: 8%;
+  height: 215px;
+  position: absolute;
+  top: 0px;
+  right: 304px;
+}
+
+.yellow1{
+  background-color: #dd9d32;
+  width: 40px;
+  height: 38px;
+  position: absolute;
+  left: 304px;
+  top: 90px;
+}
+
+.profile-hr{
+  width: 283px;
+}
+
+.img{
+  width: 144px;
+  height: 136px;
+  border-radius: 50%;
+  position: absolute;
+  top: 35px;
+  right: 339px;
+  z-index: 1;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.contact,.education,.skills,.profile,.experience,.references{
+  font-family: PT Serif;
+  font-size: 15px;
+}
+
+.heading-contact,.heading-education,.heading-skills,.heading-profile,.heading-experience{
+  letter-spacing: 4px;
+  padding-bottom: 10px;
+  font-family: Libre Franklin;
+}
+
+.email,.phone,.location,.web{
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  margin-bottom: 5px;
+}
+
+.bold{
+  font-weight: bold;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.education1,.education2{
+  padding-bottom: 25px;
+}
+.skills li{
+  margin-bottom: 5px;
+}
+
+.experience li{
+  margin-bottom: 4px;
+}
+
+.experience1,.experience2{
+  margin-bottom: 30px;
+}
+
+.expe-para2{
+  margin-bottom: 10px;
+}
