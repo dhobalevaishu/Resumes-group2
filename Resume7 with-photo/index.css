@@ -32,6 +32,7 @@ body{
 }
 .sub-container{
   padding: 50px;
+  padding-top: 10px;
   display: grid;
   grid-template-columns:37% 1fr;
   column-gap: 60px;
@@ -84,7 +85,7 @@ i{
   height: 9px;
   background-color: #f1ecd9;
   border: 1px solid #998865;
-  margin-bottom: 22px;
+  margin-bottom: 16px;
 }
 .fill{
   background-color: #998865;
@@ -113,7 +114,7 @@ i{
   height: 100%;
   width: 95%;
 }
-.heading-profile,.heading-education,.heading-work,.heading-skills,.heading-lang,.heading-certi,.heading-projects,.heading-references,.heading-social{
+.heading-profile,.heading-education,.heading-work,.heading-skills,.heading-lang,.heading-certi,.heading-projects,.heading-references{
   margin-top: 40px;
   margin-bottom: 11px;
   font-family: Libre Franklin;
@@ -121,10 +122,7 @@ i{
   color: #998865;
   /* font-size: 1.1rem; */
 }
-.heading-certi{
-  margin-top: 21px;
-}
-.profile-hr,.education-hr,.work-hr,.skills-hr,.lang-hr,.certi-hr,.project-hr,.refer-hr,.social-hr{
+.profile-hr,.education-hr,.work-hr,.skills-hr,.lang-hr,.certi-hr,.project-hr,.refer-hr{
   margin-bottom: 20px;
 }
 .last-name{
@@ -199,13 +197,13 @@ hr{
 .hr-hr{
   position: absolute;
   width: 381px;
-  top: 90px;
+  top: 136px;
 }
 .hr-vr{
   position: absolute;
   border-right: 2px solid #af9a6f;
   height: 82px;
-  top: 50px;
+  top: 99px;
   left: 70%;
 }
 .p-link{
@@ -234,19 +232,24 @@ hr{
 .social i{
   font-size: 18px;
   position: relative;
-  top: -10px;
+  top: -1.5px;
 }
 .social{
-  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 20px;
+  background-color: #c9c6c6;
+  padding: 20px 45px;
   margin-bottom: 30px;
 }
-.insta,.facebook{
-  margin-bottom: 15px;
-}
-.social i{
+.Twitter{
   position: relative;
-  top: 5px;
+  left: 72px;
 }
-.insta{
-  margin-top: 20px;
+.facebook{
+  position: relative;
+  left: 44px;
+}
+.social-para{
+  font-weight: 600;
 }

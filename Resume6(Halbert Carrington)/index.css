@@ -18,22 +18,32 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  width: 687px;
+  margin: auto;
+  position: relative;
+}
 .container{
-  width: 51%;
+  width: 100%;
   margin: auto;
   box-shadow: 0px 0px 7px 2px #cfc9c9;
-  display: grid;
+  font-size: 14px;
+  font-family: PT Serif;
   /* flex-direction: row; */
+  /* height:fit-content; */
+  /* height: 1125px; */
+}
+.sub-container{
+  display: grid;
   grid-template-columns: 20% 60% 20%;
-  height:fit-content;
-  height: 1125px;
+
 }
 
 .first-div{
   background: linear-gradient(108deg, rgb(1, 15, 31)60%, #207e88 40%);
   display: flex;
   transform: rotate(270deg);
-  height: 10vw;
+  height: 136px;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -157,7 +167,7 @@
   background: linear-gradient(108deg, rgb(1, 15, 31)60%, #207e88 40%);
   display: flex;
   transform: rotate(270deg);
-  height: 10vw;
+  height: 136px;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -173,7 +183,7 @@
 }
 .para,.two{
   font-family: PT Serif;
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 .para{
   position: relative;
@@ -188,20 +198,30 @@
   position: relative;
   right: 125px;
 }
-.heading-award,.heading-skills{
+.heading-award,.heading-skills,.heading-projects{
   background: linear-gradient(72deg, rgb(221, 87, 9)60%, white 40%);
 }
 .heading-work,.heading-education{
-  background: linear-gradient(72deg, rgb(221, 87, 9)60%, #f7f4f4 40%);
-  
+  background: linear-gradient(72deg, rgb(221, 87, 9)60%, #f7f4f4 40%); 
+}
+.heading-certi,.heading-languages,.heading-references{
+  background: linear-gradient(72deg, rgb(221, 87, 9)90%, white 40%);
+  position: relative;
+  right:15px;
 }
 .work,.education{
   background-color: #f7f4f4;
 }
 .awards,.education,.work{
   padding: 25px 20px 25px 15px;
-  font-family: PT Serif;
-  font-size: 15px;
+  /* font-size: 15px; */
+}
+.projects{
+  padding: 0 30px;
+}
+.heading-projects{
+  position: relative;
+  right: 15px;
 }
 .skill-grid{
   padding-left: 15px;
@@ -211,7 +231,7 @@
 }
 .skills{
   padding: 25px 15px 25px 15px;
-  font-size: 15px;
+  /* font-size: 15px; */
   font-family: PT Serif;
 }
 .work-li1,.education-li1{
@@ -219,12 +239,64 @@
   margin-bottom: 4.8px;
 }
 
-.heading-award,.heading-skills,.heading-work,.heading-education{
-  font-size: 23px;
+.heading-award,.heading-skills,.heading-work,.heading-education,.heading-certi,.heading-languages,.heading-projects,.heading-references{
   color: white;
   padding: 4px;
   margin-bottom: 20px;
   margin-left: 15px;
   font-family: Libre Franklin;
   font-size: 1.1rem;
+}
+
+
+.certi-para1,.certi-para2{
+  margin-bottom: 15px;
+}
+.date{
+  font-weight: bold;
+  font-size: 13px;
+}
+.forth-div{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 30px;
+  padding: 60px 20px;
+}
+.p-link{
+  color: rgb(103, 103, 218);
+  margin-bottom: 10px;
+}
+.languages .progressbar{
+  width: 80%;
+}
+.p-name{
+  font-weight: bold;
+}
+.project1{
+  margin-bottom: 20px;
+}
+.references li{
+  list-style: none;
+}
+.sub-references1{
+  margin-bottom: 15px;
+}
+.refer-para-one{
+  padding-bottom: 5px;
+  font-size: 17px;
+}
+.first-two li{
+ list-style: none;
+}
+.first-two{
+  position: relative;
+  left: 181px;
+}
+.uper-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #207e88;
+  font-weight: bold;
 }

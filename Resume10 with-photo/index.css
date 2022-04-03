@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
-
 /* heading text fontfamily link */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
 
@@ -12,82 +11,144 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
 
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 body{
-  width: 800px;
   margin: auto;
   position: relative;
+  width: 740px;
 }
 .container{
   width: 100%;
   margin: auto;
   box-shadow: 0px 0px 7px 2px #ad9a6f;
-  background-color: #f1f1f1;
+  padding: 40px 30px 40px 30px;
+  background-color: rgb(252, 250, 250);
   font-family: PT Serif;
-  font-size: 14px;
+  font-size: 15px;
 }
+
 .sub-container{
-  padding: 50px;
   display: grid;
-  grid-template-columns:37% 1fr;
-  column-gap: 60px;
-  line-height: 22px;
+  grid-template-columns: 30% 1% 1fr;
+  column-gap: 25px;
 }
+
+.first-name{
+  color: #6a6b6f;
+  font-size: 31px;
+  position: relative;
+  left: 263px;
+  font-family: Libre Franklin;
+}
+
+.last-name{
+  color: #434446;
+  font-size: 52px;
+  position: relative;
+  left: 66px;
+  letter-spacing: 3px;
+  font-family: Libre Franklin;
+}
+
+.head-para{
+  color: #6a6b6f;
+  font-size: 11px;
+  position: relative;
+  left: 259px;
+  letter-spacing: 2px;
+}
+
+hr{
+  margin: 40px 0 40px 0;
+}
+
+.vr{
+  border-left: 2px solid black;
+}
+
+.vr2{
+  border-left: 2px solid black;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 260px;
+}
+
+.yellow{
+  background-color: #dc9226;
+  width: 111px;
+  height: 215px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.yellow1{
+  background-color: #dd9d32;
+  width: 40px;
+  height: 38px;
+  position: absolute;
+  left: 0px;
+  top: 90px;
+}
+
+.profile-hr{
+  width: 283px;
+}
+
 .img{
-  width: 45%;
-  height: 115px;
-  /* border: 2px solid #fcfcfd; */
-  border-radius: 100%;
-  margin: 30px;
+  width: 144px;
+  height: 136px;
+  border-radius: 50%;
+  position: absolute;
+  top: 35px;
+  right: 43px;
+  z-index: 1;
 }
 .img img{
   width: 100%;
   height: 100%;
-  border-radius: 100%;
+  border-radius: 50%;
 }
-.info{
-  /* font-size: 14px; */
-  display: grid;
-  grid-template-columns: 48% 40%;
-  column-gap: 40px;
-  /* border: 2px solid black; */
+
+.heading-contact,.heading-education,.heading-skills,.heading-profile,.heading-experience,.heading-lang,.heading-projects,.heading-certi,.heading-references{
+  letter-spacing: 4px;
+  padding-bottom: 10px;
+  font-family: Libre Franklin;
 }
-i{
-  color: #998865;
-}
-.location-para,.email-para,.phone-para,.linkedin-para{
-  position: relative;
-  bottom: 3px;
-}
-.location,.email,.phone,.linkedin{
+
+.email,.phone,.location,.web{
   display: grid;
   grid-template-columns: 20% 1fr;
-  grid-template-rows: 10% 10%;
-  row-gap: 17px;
+  margin-bottom: 5px;
 }
-.grid-skill-para{
-  display: grid;
-  grid-template-columns: 34% 1fr;
-  column-gap: 9px;
+
+.bold{
+  font-weight: bold;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.sub-skill{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  column-gap: 40px;
+
+.education1,.education2{
+  padding-bottom: 25px;
+}
+.skills li{
+  margin-bottom: 5px;
 }
 .progessbar{
   width: 100%;
   height: 9px;
-  background-color: #f1ecd9;
-  border: 1px solid #998865;
-  margin-bottom: 22px;
+  background-color: #c5c4bf;
+  margin-bottom: 16px;
 }
 .fill{
-  background-color: #998865;
+  background-color:#dc9226;
 }
 .fillprogess1{
   height: 100%;
@@ -113,140 +174,64 @@ i{
   height: 100%;
   width: 95%;
 }
-.heading-profile,.heading-education,.heading-work,.heading-skills,.heading-lang,.heading-certi,.heading-projects,.heading-references,.heading-social{
-  margin-top: 40px;
-  margin-bottom: 11px;
-  font-family: Libre Franklin;
-  letter-spacing: 2px;
-  color: #998865;
-  /* font-size: 1.1rem; */
-}
-.heading-certi{
-  margin-top: 21px;
-}
-.profile-hr,.education-hr,.work-hr,.skills-hr,.lang-hr,.certi-hr,.project-hr,.refer-hr,.social-hr{
-  margin-bottom: 20px;
-}
-.last-name{
-  color: #af9a6f;
-  font-size: 34px;
-  letter-spacing: 2px;
-  font-family: Roboto Serif;
-}
-.first-name{
-  font-size:34px;
-  font-weight: 500;
-  font-family: Roboto Serif;
-  margin-bottom: 20px;
-}
-.img-para-hr{
-  width: 223px;
-  margin-bottom: 8.5px;
-  margin-top: 9px;
-}
-.progess-para{
-  position: relative;
-  bottom: 5px;
-}
- .hr-one{
-  width: 381px;
-  margin-bottom: 10px;
 
+.experience li{
+  margin-bottom: 4px;
 }
-.hr-two{
-  margin-top: -10px;
-  width: 381px;
-
+.experience1,.experience2{
+  margin-bottom: 30px;
 }
-.hr-three{
-  position: relative;
-  left: 308px;
-  bottom: -48px;
-  width: 381px;
-}
-.vr-one{
-  border-left: 2px solid gray;
-  height: 71px;
-  position: relative;
-  top: 10px;
-  left: 501px;
-}
-.work .etalic{
-  font-style:italic ;
-  color: #af9a6f;
+.expe-para2{
   margin-bottom: 10px;
 }
-.education .etalic{
-  font-style:italic ;
-  color: #af9a6f;
-}
-.bold{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin-bottom: 6px;
-  margin-top: 30px;  
-}
-.heading-education{
-  margin-top: 35px;
-}
-hr{
-  border: 1px solid #af9a6f ;
-}
-.sub-para{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  letter-spacing: 1.2px;
+.expe-li-margin{
+  padding-bottom: 3px;
 }
 
-.hr-hr{
-  position: absolute;
-  width: 381px;
-  top: 90px;
-}
-.hr-vr{
-  position: absolute;
-  border-right: 2px solid #af9a6f;
-  height: 82px;
-  top: 50px;
-  left: 70%;
-}
 .p-link{
   color: rgb(103, 103, 218);
   margin-bottom: 10px;
 }
-.project1{
-  margin-bottom: 20px;
+.date{
+  font-weight: bold;
+  font-size: 12.5px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.certi-para1{
+  margin-bottom: 10px;
 }
 .company-name{
   font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 5px;
 }
-.certi-para1{
-  margin-bottom: 20px;
-}
-.date{
-  font-weight: bold;
-  font-size: 14px;
+.social{
+  margin-top: 35px;
 }
 .insta,.Twitter,.facebook{
   display: grid;
   grid-template-columns:8% 1fr;
-  column-gap: 10px;
+  column-gap: 25px;
 }
 .social i{
   font-size: 18px;
   position: relative;
-  top: -10px;
-}
-.social{
-  margin-top: 30px;
-  margin-bottom: 30px;
+  top: -1.5px;
 }
 .insta,.facebook{
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+}
+.contact i{
+  position: relative;
+  top: 4px;
 }
 .social i{
   position: relative;
-  top: 5px;
+  top: 3px;
 }
-.insta{
-  margin-top: 20px;
+.project1{
+  margin-bottom: 20px;
+}
+.certi,.projects,.references,.lang{
+  display: none;
 }

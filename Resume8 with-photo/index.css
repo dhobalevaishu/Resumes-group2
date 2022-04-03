@@ -57,9 +57,6 @@ body{
   font-family: PT Serif;
   font-size: 15px;
 }
-.work1{
-  margin-bottom: -8px;
-}
 .heading-education,.heading-work,.heading-skills,.heading-award,.heading-award,.heading-about,.heading-contact,.heading-languages,.heading-projects,.heading-certi,.heading-references{
   padding-bottom: 20px;
   font-size: 20px;
@@ -90,9 +87,6 @@ body{
   background-color: #525671;
   color: whitesmoke;
 }
-.contact{
-  padding-bottom: 35px;
-}
 .references{
   margin-top: -30px;
 }
@@ -101,6 +95,7 @@ body{
 }
 .left-skills{
   padding-top: 85px;
+  padding-bottom: 39px;
 }
 .left-award{
   padding-top: 83px;
@@ -129,11 +124,20 @@ body{
 .education2,.work2 {
   padding-top:20px;
 }
+.work2{
+  padding-bottom: 35px;
+}
 .para-two{
   margin-top: 15px;
 }
+.skills,.award,.left-skills,.left-award{
+  background-color: #f0d8b4;
+}
 .education,.skills,.work,.award{
   padding-left: 20px;
+}
+.skills{
+  padding-bottom: 40px;
 }
 .education-para,.work-para,.award1,.award2,.about-para,.phone-para,.email-para,.address-para{
   font-size: 14.4px;
@@ -187,6 +191,7 @@ body{
 }
 .projects{
   padding-left: 20px;
+  padding-bottom: 40px;
   display: none;
 }
 .certi-para1,.certi-para2,.certi-para3{
@@ -196,6 +201,7 @@ body{
   padding-bottom: 15px;
 }
 .certi{
+  padding-bottom: 40px;
   display: none;
 }
 .date{
@@ -204,7 +210,7 @@ body{
 }
 .references{
   background-color:#525671;
-  padding-bottom: 38px;
+  padding-bottom: 65px;
   display: none;
 }
 .company-name{
