@@ -220,11 +220,12 @@ hr{
   margin-bottom: 5px;
 }
 .certi-para1{
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .date{
   font-weight: bold;
   font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .insta,.Twitter,.facebook{
   display: grid;
@@ -245,8 +246,11 @@ hr{
 }
 .social i{
   position: relative;
-  top: 5px;
+  top: 2px;
 }
 .insta{
   margin-top: 20px;
+}
+.insta,.facebook{
+  margin-bottom: 15px;
 }
